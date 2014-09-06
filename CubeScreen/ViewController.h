@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "AppDelegate.h"
+@interface ViewController : UIViewController<UIApplicationDelegate>
+@property (nonatomic,strong) AppDelegate *mainDelegate;
+@property (strong, nonatomic) IBOutlet UIView *myContainerView;
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
 @end

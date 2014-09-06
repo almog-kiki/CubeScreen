@@ -21,6 +21,14 @@
 		2733874319BB37D800588C5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2733872519BB37D700588C5E /* UIKit.framework */; };
 		2733874B19BB37D800588C5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2733874919BB37D800588C5E /* InfoPlist.strings */; };
 		2733874D19BB37D800588C5E /* CubeScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733874C19BB37D800588C5E /* CubeScreenTests.m */; };
+		2733875719BB388C00588C5E /* manarola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2733875619BB388C00588C5E /* manarola.jpg */; };
+		2733875A19BB38D900588C5E /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733875919BB38D900588C5E /* ContainerViewController.m */; };
+		2733875D19BB39B100588C5E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733875C19BB39B100588C5E /* FirstViewController.m */; };
+		2733876019BB3A0100588C5E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733875F19BB3A0100588C5E /* SecondViewController.m */; };
+		2733876319BB3A6C00588C5E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733876219BB3A6C00588C5E /* ThirdViewController.m */; };
+		2733876619BB3A8E00588C5E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733876519BB3A8E00588C5E /* MainViewController.m */; };
+		2733876819BB3AE600588C5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2733876719BB3AE600588C5E /* QuartzCore.framework */; };
+		2733876B19BB3C3F00588C5E /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2733876A19BB3C3F00588C5E /* EmptySegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		2733874819BB37D800588C5E /* CubeScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CubeScreenTests-Info.plist"; sourceTree = "<group>"; };
 		2733874A19BB37D800588C5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2733874C19BB37D800588C5E /* CubeScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeScreenTests.m; sourceTree = "<group>"; };
+		2733875619BB388C00588C5E /* manarola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manarola.jpg; sourceTree = "<group>"; };
+		2733875819BB38D900588C5E /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		2733875919BB38D900588C5E /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		2733875B19BB39B100588C5E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
+		2733875C19BB39B100588C5E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
+		2733875E19BB3A0100588C5E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		2733875F19BB3A0100588C5E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		2733876119BB3A6C00588C5E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		2733876219BB3A6C00588C5E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
+		2733876419BB3A8E00588C5E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		2733876519BB3A8E00588C5E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		2733876719BB3AE600588C5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2733876919BB3C3F00588C5E /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
+		2733876A19BB3C3F00588C5E /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2733876819BB3AE600588C5E /* QuartzCore.framework in Frameworks */,
 				2733872419BB37D700588C5E /* CoreGraphics.framework in Frameworks */,
 				2733872619BB37D700588C5E /* UIKit.framework in Frameworks */,
 				2733872219BB37D700588C5E /* Foundation.framework in Frameworks */,
@@ -82,6 +105,10 @@
 		2733871519BB37D700588C5E = {
 			isa = PBXGroup;
 			children = (
+				2733876919BB3C3F00588C5E /* EmptySegue.h */,
+				2733876A19BB3C3F00588C5E /* EmptySegue.m */,
+				2733875819BB38D900588C5E /* ContainerViewController.h */,
+				2733875919BB38D900588C5E /* ContainerViewController.m */,
 				2733872719BB37D700588C5E /* CubeScreen */,
 				2733874619BB37D800588C5E /* CubeScreenTests */,
 				2733872019BB37D700588C5E /* Frameworks */,
@@ -101,6 +128,7 @@
 		2733872019BB37D700588C5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2733876719BB3AE600588C5E /* QuartzCore.framework */,
 				2733872119BB37D700588C5E /* Foundation.framework */,
 				2733872319BB37D700588C5E /* CoreGraphics.framework */,
 				2733872519BB37D700588C5E /* UIKit.framework */,
@@ -112,6 +140,8 @@
 		2733872719BB37D700588C5E /* CubeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				2733876C19BB3C4B00588C5E /* myScreens */,
+				2733875619BB388C00588C5E /* manarola.jpg */,
 				2733873019BB37D800588C5E /* AppDelegate.h */,
 				2733873119BB37D800588C5E /* AppDelegate.m */,
 				2733873319BB37D800588C5E /* Main.storyboard */,
@@ -150,6 +180,21 @@
 				2733874919BB37D800588C5E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2733876C19BB3C4B00588C5E /* myScreens */ = {
+			isa = PBXGroup;
+			children = (
+				2733876419BB3A8E00588C5E /* MainViewController.h */,
+				2733876519BB3A8E00588C5E /* MainViewController.m */,
+				2733876119BB3A6C00588C5E /* ThirdViewController.h */,
+				2733876219BB3A6C00588C5E /* ThirdViewController.m */,
+				2733875E19BB3A0100588C5E /* SecondViewController.h */,
+				2733875F19BB3A0100588C5E /* SecondViewController.m */,
+				2733875B19BB39B100588C5E /* FirstViewController.h */,
+				2733875C19BB39B100588C5E /* FirstViewController.m */,
+			);
+			name = myScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +275,7 @@
 			files = (
 				2733873A19BB37D800588C5E /* Images.xcassets in Resources */,
 				2733872C19BB37D800588C5E /* InfoPlist.strings in Resources */,
+				2733875719BB388C00588C5E /* manarola.jpg in Resources */,
 				2733873519BB37D800588C5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2733876019BB3A0100588C5E /* SecondViewController.m in Sources */,
 				2733873819BB37D800588C5E /* ViewController.m in Sources */,
 				2733873219BB37D800588C5E /* AppDelegate.m in Sources */,
+				2733876B19BB3C3F00588C5E /* EmptySegue.m in Sources */,
+				2733876619BB3A8E00588C5E /* MainViewController.m in Sources */,
+				2733875D19BB39B100588C5E /* FirstViewController.m in Sources */,
+				2733875A19BB38D900588C5E /* ContainerViewController.m in Sources */,
 				2733872E19BB37D800588C5E /* main.m in Sources */,
+				2733876319BB3A6C00588C5E /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
